@@ -1,0 +1,18 @@
+{
+    "name": "robertseghedi/laravel-notification-system",
+    "description": "One of the most practical Laravel plugins for user-notifing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Seghedi",
+            "email": "robertseghedi123@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RobertSeghedi\\LNS\\": "src/"
+        }
+    }
+}
