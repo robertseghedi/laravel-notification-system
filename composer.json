@@ -1,6 +1,6 @@
 {
     "name": "robertseghedi/laravel-notification-system",
-    "description": "One of the most practical Laravel plugins for user-notifing",
+    "description": "One of the most practical user-notification open-source systems. This is a fresh Laravel plugin which shows you an easier way to send encrypted notifications to your users.",
     "license": "MIT",
     "authors": [
         {
