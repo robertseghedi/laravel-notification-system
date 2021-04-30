@@ -43,7 +43,7 @@ use RobertSeghedi\LNS\Models\LNS;
 ### 2. Start using the tools
 
 ```php
-public function add_post($user = null)
+public function monday_alert($user = null)
 {
     $notification = LNS::notify($user, "Your package will arrive on Monday.");
     if($notification) return redirect()->back()->with('success', 'Notification sent.');
