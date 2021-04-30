@@ -14,7 +14,7 @@
 
 RobertSeghedi\LNS\LNSProvider::class,
  ```
- Run the migrate command in order to add the secure-logs table
+ Run the migrate command in order to add the notifications table
   ```
   php artisan migrate
    ```
