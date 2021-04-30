@@ -41,7 +41,7 @@ class LNS extends Model
         }
         return json_encode($ao);
     }
-    public static function delete_notification($id)
+    public static function delete($id)
     {
         $deletion = Notification::where('id', $id)->delete();
         if($deletion) return json_encode(['success' => 1]);
@@ -61,7 +61,7 @@ class LNS extends Model
         $owner_changing = Notification::where('id', $id)->update(['user' => $new_user]);
         if($owner_changing) return json_encode(['success' => 1]);
     }
-    public static function delete_user_notifications($user)
+    public static function delete_all($user)
     {
         $deletion = Notification::where('user', $user)->delete();
         if($deletion) return json_encode(['success' => 1]);
